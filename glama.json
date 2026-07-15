@@ -1,5 +1,5 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
   "name": "io.github.dingdawg/dingdawg-legal-agent",
   "description": "AI contract review, clause drafting, compliance checklists & legal research.",
   "repository": {
