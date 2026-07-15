@@ -1,0 +1,67 @@
+{
+  "name": "dingdawg-legal-agent",
+  "version": "2.0.12",
+  "description": "Governance receipts for AI agents — contract review, clause drafting, compliance checklists, and legal research, every review signed and receipted for EU AI Act, Colorado AI Act (SB 24-205), and NIST AI RMF audit trails. Improves with your feedback. Not legal advice.",
+  "main": "dist/index.js",
+  "bin": {
+    "dingdawg-legal-agent": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "prepublishOnly": "bash ../../ip-gate.sh ./dist"
+  },
+  "keywords": [
+    "mcp",
+    "legal",
+    "contract-review",
+    "legal-research",
+    "compliance",
+    "governance",
+    "dingdawg",
+    "claude-code",
+    "cursor",
+    "ai-agent",
+    "ai-legal",
+    "contract-drafting",
+    "governance-receipts",
+    "receipts",
+    "audit-trail",
+    "tamper-proof",
+    "ai-governance",
+    "responsible-ai",
+    "llm-governance",
+    "signed-receipts",
+    "ai-agents",
+    "eu-ai-act",
+    "model-context-protocol"
+  ],
+  "author": "Innovative Systems Global <support@dingdawg.com>",
+  "license": "BUSL-1.1",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dingdawg/dingdawg-legal-agent"
+  },
+  "homepage": "https://dingdawg.com/marketplace/legal-agent",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "mcpName": "io.github.dingdawg/dingdawg-legal-agent",
+  "files": [
+    "dist"
+  ]
+}
